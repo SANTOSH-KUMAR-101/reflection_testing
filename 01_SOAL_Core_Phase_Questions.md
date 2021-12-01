@@ -30,11 +30,27 @@ Problem Statement 3:-
 
 Problem Statement 4:-
 
-    Create a function tjat accepts an array called 'myarray' as an argument, iterates through 'myarray', and returns a new array which contains all the even number in 'myarray'
-    sample input: [1,2,3,4,5,6,7,8]
-    sample output: [2,4,6,8]
+    Create a function tjat accepts an array called 'myarray' as an argument, iterates through 'myarray', 
+    and returns a new array which contains all the even number in 'myarray'.
+    Sample input: [1,2,3,4,5,6,7,8]
+    Sample output: [2,4,6,8]
     
  Problem Statement 5:-
+ 
+    Create 3 columns in a row in which each column has simple text like shown in the image at 
+    https://media.geeksforgeeks.org/wp-content/uploads/20200318183629/Screenshot-from-2020-03-18-18-36-13.png
+    
+    Add an event handler to the columns such that when you click on any
+    column it should alert the user with the text inside the column, using the 'alert' function
+    
+    Add 300*300 pixels width and height, any background color, and necessary padding/margin for the gap between 
+    columns using external CSS.
+    Make the document responsive such that when :
+    1. the screen width is less than 720px, only 1 colun in a row is displayed
+    2. the screen width is greater than 720px and less than 1000px, only 2 column in a row are displayed,
+    3. the screen width is greater than 1000px, 3 column in a row are displayed.
+    
+    Add any animation of your choice
  
  
  
