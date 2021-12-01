@@ -7,6 +7,7 @@ The API returns data representing a list of to-do items.
 
 
 Problem Statement 2:-
+
 Consider the Code Below:
 setTimeout( ()=>{console.log("Time1")}, 3000)
 setTimeout( ()=>{console.log("Time2")}, 2000)
@@ -18,3 +19,14 @@ Time 2
 Time 1
 
 Without updating the timings change the code using asynchronous methodlogies such that it prints the following output,
+Time 1
+Time 2
+Time 3
+
+
+Problem Statement 3:-
+
+Write a test for a function that accepts an array and return all the even numbers in that array.
+
+Problem Statement 4:-
+
