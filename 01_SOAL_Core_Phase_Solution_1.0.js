@@ -6,6 +6,26 @@
 
 
 // Sol:-
+
+// Using forEach Method
+
+
+
+function sort(a){
+let b =[];
+a.forEach((e)=>{
+if(e%2==0){b.push(e);}
+ }
+ )
+return b;
+} 
+
+var samp = [1,2,3,4,5,6,7,8];
+
+sort(samp);
+
+
+
   
     
   
