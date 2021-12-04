@@ -68,6 +68,17 @@ console.log(b);
 //   Time 3
 
    
-        
+        const promise = new Promise((resolve, reject) => {
+    setTimeout(() => { console.log("Time1"); resolve(); }, 3000);
+})
+
+function time2() {
+    setTimeout(() => { console.log("Time2"); }, 2000);
+}
+const promise2 = promise.then(time2);
+function time3() {
+    setTimeout(() => { console.log("Time3"); }, 3000);
+}
+Promise.allSettled([promise2]).then(time3);
       
   
