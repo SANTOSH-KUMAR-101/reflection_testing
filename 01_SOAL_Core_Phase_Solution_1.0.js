@@ -52,6 +52,22 @@ var b = new school("pavo","name of school",["Learner1", "Learner2","Learner3"],"
 console.log(b);
 
 
+// Consider the Code Below:
+// setTimeout( ()=>{console.log("Time1")}, 3000)
+// setTimeout( ()=>{console.log("Time2")}, 2000)
+// setTimeout( ()=>{console.log("Time3")}, 1000)
+
+//   Output of the above code is 
+//   Time 3
+//   Time 2
+//   Time 1
+
+//   Without updating the timings change the code using asynchronous methodlogies such that it prints the following output,
+//   Time 1
+//   Time 2
+//   Time 3
+
+
   
     
   
