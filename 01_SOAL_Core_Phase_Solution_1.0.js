@@ -1,3 +1,4 @@
+
 // Question 1:-
 // Create a function tjat accepts an array called 'myarray' as an argument, iterates through 'myarray', 
 // and returns a new array which contains all the even number in 'myarray'.
