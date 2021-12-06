@@ -115,4 +115,4 @@ function time3() {
 }
 Promise.allSettled([promise2]).then(time3);
       
-  
+   
