@@ -156,7 +156,14 @@ Promise.allSettled([promise2]).then(time3);
 
 
 // Write a test for a function that accepts an array and return all the even numbers in that array.
-
+function sort(a){
+let b =[];
+a.forEach((e)=>{
+if(e%2==0){b.push(e);}
+ }
+ )
+return b;
+} 
 
 
 //......................................... TESTING - UNIT TEST ...............................................................
