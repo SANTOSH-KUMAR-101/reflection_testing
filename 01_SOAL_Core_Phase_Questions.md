@@ -34,7 +34,7 @@ Problem Statement 4:-
     and returns a new array which contains all the even number in 'myarray'.
     Sample input: [1,2,3,4,5,6,7,8]
     Sample output: [2,4,6,8]
-     
+      
  Problem Statement 5:-
  
     Create 3 columns in a row in which each column has simple text like shown in the image at 
