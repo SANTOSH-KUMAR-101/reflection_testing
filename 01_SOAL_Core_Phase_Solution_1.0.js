@@ -32,6 +32,22 @@ sort(samp);
 
 
 
+function sorter(array) {
+    var b = [];
+    for (let i = 0; i < array.length; i++) {
+
+        if (array[i] % 2 == 0) {
+
+            b.push(array[i]);
+        }
+    }
+    console.log(b);
+    return b;
+
+}
+
+const myarray = [1, 3, 2, 2, 3, 4, 3, 2, 14];
+sorter(myarray);
 
 
 
