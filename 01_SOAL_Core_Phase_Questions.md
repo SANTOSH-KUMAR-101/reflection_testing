@@ -8,7 +8,7 @@ Problem Statement 1:-
 
 Problem Statement 2:-  
 
-    Consider the Code Below:  
+    Consider the Code Below:   
     setTimeout( ()=>{console.log("Time1")}, 3000)
     setTimeout( ()=>{console.log("Time2")}, 2000)
     setTimeout( ()=>{console.log("Time3")}, 1000)
