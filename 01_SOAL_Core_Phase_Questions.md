@@ -42,7 +42,7 @@ Problem Statement 4:-
     
     Add an event handler to the columns such that when you click on any
     column it should alert the user with the text inside the column, using the 'alert' function
-    
+     
     Add 300*300 pixels width and height, any background color, and necessary padding/margin for the gap between 
     columns using external CSS.
     Make the document responsive such that when :
