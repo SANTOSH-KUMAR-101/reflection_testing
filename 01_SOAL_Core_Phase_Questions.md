@@ -6,7 +6,7 @@ Problem Statement 1:-
     (b) Use the response to create an HTML list of the title and completed status of each of the to-do items.  
 
 
-Problem Statement 2:-  
+Problem Statement 2:-   
 
     Consider the Code Below:   
     setTimeout( ()=>{console.log("Time1")}, 3000)
