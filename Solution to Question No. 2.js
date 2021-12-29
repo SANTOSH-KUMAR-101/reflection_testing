@@ -5,6 +5,19 @@
 // ...................................................................MODULE FILE module.js .......................................................
 
 
+var array = [1, 2, 3, 4, 5, 6, 7, 8];
+
+function sort(array) {
+    let b = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 == 0) {
+            b.push(array[i]);
+        }
+    }
+    return b;
+}
+
+module.exports = sort;
 
 
 
