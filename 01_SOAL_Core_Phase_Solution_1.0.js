@@ -197,7 +197,10 @@ test('sorting array [1, 2, 3, 4, 5, 6, 7, 8] for even number to return [2, 4, 6,
 //......................................... TESTING - UNIT TEST ...............................................................
 
 
-
+// Consider the Following API https://jsonplaceholder.typicode.com/todos. 
+// The API returns data representing a list of to-do items. 
+// (a) Create an Ajax request to this API and 
+// (b) Use the response to create an HTML list of the title and completed status of each of the to-do items. 
 
 <html>
   <head>
