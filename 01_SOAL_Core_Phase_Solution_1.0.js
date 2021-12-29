@@ -199,6 +199,60 @@ test('sorting array [1, 2, 3, 4, 5, 6, 7, 8] for even number to return [2, 4, 6,
 
 
 
+<html>
+  <head>
+    <title>Appending Elements With the DOM and Ajax</title>
+    <script language="javascript">
+      function getData() {
+        var XMLHttpRequestObject = false;
+        if (window.XMLHttpRequest) {
+          XMLHttpRequestObject = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+          XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        if (XMLHttpRequestObject) {
+          XMLHttpRequestObject.open("GET", url);
+          XMLHttpRequestObject.onreadystatechange = function () {
+            if (
+              XMLHttpRequestObject.readyState == 4 &&
+              XMLHttpRequestObject.status == 200
+            ) {
+              decoded_string = JSON.parse(XMLHttpRequestObject.responseText);
+              console.log(decoded_string);
+              // console.log(decoded_string.length);
+              for (let i = 0; i < decoded_string.length; i++) {
+                let create_li = document.createElement("li");
+                create_li.innerHTML = `Title: ${decoded_string[i].title} & Completed Status: ${decoded_string[i].completed} `;
+                let div_catch = document.getElementById("list_box");
+                div_catch.appendChild(create_li);
+              }
+
+              // var newPElement = document.createElement("li");
+              // var newText = document.createTextNode(
+              //   XMLHttpRequestObject.responseText
+              // );
+              // newPElement.appendChild(newText);
+              // var divElement = document.getElementById("targetDiv");
+              // divElement.appendChild(newPElement);
+            }
+          };
+          XMLHttpRequestObject.send(null);
+        }
+      }
+      const url = "https://jsonplaceholder.typicode.com/todos";
+    </script>
+  </head>
+  <body>
+    <h1>Appending Elements With the DOM and Ajax</h1>
+    <form>
+      <input type="button" value="Download the message" onclick="getData()" />
+    </form>
+    <div id="targetDiv" width="100" height="100">
+      <p id="text"></p>
+    </div>
+    <div id="list_box"></div>
+  </body>
+</html>
 
 
     
