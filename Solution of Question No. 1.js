@@ -8,7 +8,7 @@ function sort(p){
   for(let i=0; i<p.length;i++){
     if(p[i]%2==0){
     b.push(p[i])}}return b;}
-myarray = [1,2,3,4,5,6,7,8];
+const myarray = [1,2,3,4,5,6,7,8];
 sort(myarray);
 
     
